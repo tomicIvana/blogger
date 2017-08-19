@@ -15,6 +15,12 @@
     <%= f.text_area :body %>
   </p>
   <p>
+
+  <p>
+  <%= f.label :image, "Attach an Image" %><br />
+  <%= f.file_field :image %>
+  </p>
+
     <%= f.submit %>
   </p>
 <% end %>
